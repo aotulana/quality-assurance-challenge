@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Quality Assurance Challenge" >
+    <listeners>
+        <listener class-name="ExtentReporterNG" />
+    </listeners>
+
+    <test name="Goal 3 Tests" >
+        <classes>
+            <class name="LocationFilterTest" />
+        </classes>
+    </test>
+</suite>
